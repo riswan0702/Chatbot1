@@ -14,11 +14,9 @@ Python, Streamlit, PyInstaller.
 #### 2. Usage
 #### 3. Creating Executable
 #### 4. Features
-#### 5. File Structure
-#### 6. Configuration
-#### 7. Contributing
-#### 8. License
-#### 9. Contact
+#### 5. Files
+#### 6. License
+#### 7. Contact
    
 ## INSTALLATION
 
