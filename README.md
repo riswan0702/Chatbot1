@@ -76,7 +76,7 @@ Contains images, such as screenshots or logos, used in the application or docume
 Directory where document files for context creation are stored.
 #### *archives/*:
 Directory where archived log files are stored.
-#### *netscout/storage/*:
+#### *storage/*:
 Directory for persistent storage of AI model context.
 
 ## LICENSE
