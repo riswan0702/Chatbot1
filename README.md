@@ -33,18 +33,26 @@ python run.py
 ## Usage
 
 ### Launching the Chatbot:
-Run the app using python run.py
+Run the app using *python run.py*
 
 ### Interaction:
 1. Upload documents in supported formats (PDF, DOCX, TXT).
 2. Ask questions related to the uploaded documents directly via the chatbot interface.
-   
-## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
+## CREATING EXECUTABLE
+
+### 1. Install PyInstaller (if not already installed):
+  ```bash
+pip install pyinstaller
+```
+
+### 2. Create Executable:
+-Use PyInstaller to convert the run.py into an executable:
+  ```bash
+pyinstaller --onefile run.py
+```
+The resulting .exe file will be located in the dist folder.
 
 ## License
 
