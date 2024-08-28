@@ -23,11 +23,11 @@ Python, Streamlit, PyInstaller.
 ## Installation
 
 1. CLONE THE REPOSITORY :
-   
    ```bash
 git clone https://github.com/yourusername/ai-chatbot-pyinstaller-streamlit.git
 cd ai-chatbot-pyinstaller-streamlit
 ```
+
 2. INSTALL DEPENDENCIES:
 
 Run the setup.ps1 Power Shell Script to install all the dependencies
