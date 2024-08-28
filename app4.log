@@ -1,0 +1,123 @@
+2024-08-23 13:40:35 - INFO - Archived log file to archives\app_20240823134035.zip
+2024-08-23 13:40:35 - ERROR - ValueError: No files found in data.
+Stack trace:
+Traceback (most recent call last):
+  File "C:\Users\Rishal Usman\netscout\chatbot4.py", line 73, in create_context
+    documents = SimpleDirectoryReader(DOC_DIR).load_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishal Usman\netscout\myenv\Lib\site-packages\llama_index\core\readers\file\base.py", line 263, in __init__
+    self.input_files = self._add_files(self.input_dir)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishal Usman\netscout\myenv\Lib\site-packages\llama_index\core\readers\file\base.py", line 345, in _add_files
+    raise ValueError(f"No files found in {input_dir}.")
+ValueError: No files found in data.
+
+2024-08-23 13:40:35 - ERROR - ValueError: No files found in data.
+Stack trace:
+Traceback (most recent call last):
+  File "C:\Users\Rishal Usman\netscout\chatbot4.py", line 73, in create_context
+    documents = SimpleDirectoryReader(DOC_DIR).load_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishal Usman\netscout\myenv\Lib\site-packages\llama_index\core\readers\file\base.py", line 263, in __init__
+    self.input_files = self._add_files(self.input_dir)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishal Usman\netscout\myenv\Lib\site-packages\llama_index\core\readers\file\base.py", line 345, in _add_files
+    raise ValueError(f"No files found in {input_dir}.")
+ValueError: No files found in data.
+
+2024-08-23 13:54:40 - INFO - Context Created
+2024-08-23 13:54:51 - WARNING - Handling special case for input: 'hi'
+2024-08-23 13:55:02 - INFO - Processing user input: when was netscout established
+2024-08-23 13:55:04 - INFO - AI response: NETSCOUT Systems, Inc. was established in 1984.
+2024-08-23 13:55:34 - WARNING - Handling special case for input: 'betscout'
+2024-08-23 13:56:05 - INFO - Creating context...
+2024-08-23 13:56:06 - INFO - Context Created
+2024-08-23 13:56:14 - INFO - Processing user input: tell me about apple
+2024-08-23 13:56:16 - INFO - AI response: Apple Inc. is an American multinational corporation and technology company known for its consumer electronics, software, and services. It was founded in 1976 and has since become a major player in the technology industry. Apple's product lineup includes popular devices like the iPhone, iPad, Mac, Apple Watch, and Apple TV, along with various software and services. The company has a history of innovation, with notable products like the Apple II, Macintosh, iPod, iPhone, and iPad. Despite facing challenges in the past, Apple has managed to regain profitability and establish itself as one of the world's most valuable brands.
+2024-08-23 14:02:07 - INFO - Creating context...
+2024-08-23 14:02:09 - INFO - Context Created
+2024-08-23 14:02:28 - INFO - Processing user input: what is the name of the book that has been reviewed
+2024-08-23 14:02:29 - INFO - AI response: ONE OF US IS LYING
+2024-08-23 14:02:58 - INFO - Processing user input: tell me about that book
+2024-08-23 14:03:01 - INFO - AI response: The book is a gripping narrative that combines mystery and suspense, focusing on high school clichés and a murder investigation. It features a diverse array of characters with their own secrets and agendas, offering a detailed exploration of high school life nuances. The author cleverly incorporates multiple perspectives, red herrings, and plot twists to keep readers engaged and eager to uncover the truth behind the intriguing mystery. Additionally, the book delves into themes such as friendship, betrayal, and societal expectations, reflecting the challenges faced by today's youth.
+2024-08-23 14:03:06 - INFO - Processing user input: who is rishal
+2024-08-23 14:03:09 - INFO - AI response: Rishal is an aspiring Data Analyst and Data Scientist with a B.Sc. in Data Science and Analytics. Proficient in Python, DBMS, Data Visualization, and Power BI, Rishal possesses skills in data analysis, machine learning, and AI. Currently interning at Net Scout Software System Pvt. Ltd. in Bangalore, Rishal is engaged in generative AI projects using OpenAI and Llama3.1, contributing to model development and performance enhancement.
+2024-08-23 14:03:32 - INFO - Processing user input: can rishal get a job in apple
+2024-08-23 14:03:34 - INFO - AI response: Rishal could potentially secure a job at Apple based on their skills and expertise in data analysis, machine learning, AI, and various technical tools such as Python, MySQL, Power BI, and Tableau. Additionally, Rishal's educational background in Data Science and Analytics, along with their commitment to self-improvement and passion for data science, could make them a strong candidate for a position at Apple.
+2024-08-23 14:03:59 - INFO - Processing user input: what are the difference between apple and netscout
+2024-08-23 14:04:02 - INFO - AI response: Apple Inc. is an American multinational corporation known for its consumer electronics, software, and services, while NETSCOUT Systems, Inc. is a global leader in digital business service assurance and cybersecurity solutions. Apple is best known for products like the iPhone, iPad, Mac, Apple Watch, and services like Apple Pay and Apple Music. On the other hand, NETSCOUT focuses on providing tools and insights for organizations to manage and optimize their digital environments, with a strong emphasis on performance, security, and availability of complex systems. Apple has a large following and brand loyalty, while NETSCOUT is recognized for its innovative solutions driven by Smart Data technology.
+2024-08-23 14:04:25 - INFO - Processing user input: banana
+2024-08-23 14:04:27 - INFO - AI response: There is no information provided in the context about bananas.
+2024-08-23 14:04:32 - WARNING - Handling special case for input: '0'
+2024-08-23 15:35:15 - INFO - Context Created
+2024-08-23 15:59:44 - INFO - Context Created
+2024-08-23 16:00:17 - INFO - Processing user input: tell me netscout
+2024-08-23 16:00:21 - INFO - AI response: NETSCOUT Systems, Inc. is a global leader in digital business service assurance and cybersecurity. They provide innovative solutions driven by Smart Data technology to help organizations ensure the performance, security, and availability of their digital environments. NETSCOUT is known for its nGeniusONE platform, which offers deep visibility into network, application, and service performance. Additionally, the company is heavily invested in cybersecurity, offering solutions to protect against cyber threats like Distributed Denial of Service (DDoS) attacks. NETSCOUT's commitment to innovation, corporate responsibility, and global reach has established them as a trusted partner for enterprises and service providers worldwide.
+2024-08-23 16:00:59 - WARNING - Handling special case for input: 'betscout'
+2024-08-23 16:01:37 - INFO - Creating context...
+2024-08-23 16:01:37 - ERROR - ValueError: No files found in data.
+Stack trace:
+Traceback (most recent call last):
+  File "C:\Users\Rishal Usman\netscout\MainBot.py", line 73, in create_context
+    documents = SimpleDirectoryReader(DOC_DIR).load_data()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishal Usman\netscout\myenv\Lib\site-packages\llama_index\core\readers\file\base.py", line 263, in __init__
+    self.input_files = self._add_files(self.input_dir)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Rishal Usman\netscout\myenv\Lib\site-packages\llama_index\core\readers\file\base.py", line 345, in _add_files
+    raise ValueError(f"No files found in {input_dir}.")
+ValueError: No files found in data.
+
+2024-08-23 16:29:28 - ERROR - Unexpected error occurred: [WinError 5] Access is denied: 'C:/Users/Rishal Usman'
+Stack trace:
+Traceback (most recent call last):
+  File "D:\netscout\MainBot copy.py", line 75, in create_context
+    index.storage_context.persist(persist_dir=PERSIST_DIR)
+  File "C:\Users\devad\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\storage\storage_context.py", line 177, in persist
+    self.docstore.persist(persist_path=docstore_path, fs=fs)
+  File "C:\Users\devad\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\storage\docstore\simple_docstore.py", line 84, in persist
+    self._kvstore.persist(persist_path, fs=fs)
+  File "C:\Users\devad\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\storage\kvstore\simple_kvstore.py", line 85, in persist
+    fs.makedirs(dirpath)
+  File "C:\Users\devad\AppData\Local\Programs\Python\Python312\Lib\site-packages\fsspec\implementations\local.py", line 52, in makedirs
+    os.makedirs(path, exist_ok=exist_ok)
+  File "<frozen os>", line 215, in makedirs
+  File "<frozen os>", line 215, in makedirs
+  File "<frozen os>", line 225, in makedirs
+PermissionError: [WinError 5] Access is denied: 'C:/Users/Rishal Usman'
+
+2024-08-23 16:29:28 - ERROR - Unexpected error occurred: [WinError 5] Access is denied: 'C:/Users/Rishal Usman'
+Stack trace:
+Traceback (most recent call last):
+  File "D:\netscout\MainBot copy.py", line 75, in create_context
+    index.storage_context.persist(persist_dir=PERSIST_DIR)
+  File "C:\Users\devad\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\storage\storage_context.py", line 177, in persist
+    self.docstore.persist(persist_path=docstore_path, fs=fs)
+  File "C:\Users\devad\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\storage\docstore\simple_docstore.py", line 84, in persist
+    self._kvstore.persist(persist_path, fs=fs)
+  File "C:\Users\devad\AppData\Local\Programs\Python\Python312\Lib\site-packages\llama_index\core\storage\kvstore\simple_kvstore.py", line 85, in persist
+    fs.makedirs(dirpath)
+  File "C:\Users\devad\AppData\Local\Programs\Python\Python312\Lib\site-packages\fsspec\implementations\local.py", line 52, in makedirs
+    os.makedirs(path, exist_ok=exist_ok)
+  File "<frozen os>", line 215, in makedirs
+  File "<frozen os>", line 215, in makedirs
+  File "<frozen os>", line 225, in makedirs
+PermissionError: [WinError 5] Access is denied: 'C:/Users/Rishal Usman'
+
+2024-08-23 16:30:32 - INFO - Creating context...
+2024-08-23 16:30:32 - INFO - Creating context...
+2024-08-23 16:44:55 - INFO - Creating context...
+2024-08-23 16:47:12 - INFO - Creating context...
+2024-08-23 16:47:47 - INFO - Context Created
+2024-08-23 16:48:26 - INFO - Creating context...
+2024-08-23 16:48:31 - INFO - Context Created
+2024-08-23 16:48:38 - INFO - Processing user input: what is netscout
+2024-08-23 16:48:42 - INFO - AI response: NETSCOUT Systems, Inc. is a global leader in digital business service assurance and cybersecurity. They provide innovative solutions driven by Smart Data technology to help organizations ensure the performance, security, and availability of their digital environments. The company is known for its nGeniusONE platform, which offers comprehensive service assurance by providing deep visibility into network, application, and service performance. Additionally, NETSCOUT is heavily invested in cybersecurity, offering solutions to protect against various cyber threats, including Distributed Denial of Service (DDoS) attacks. With a commitment to innovation, corporate responsibility, and a global presence in over 60 countries, NETSCOUT continues to be a trusted partner for enterprises and service providers worldwide.
+2024-08-24 04:08:49 - INFO - Creating context...
+2024-08-24 04:08:54 - INFO - Context Created
+2024-08-24 04:09:16 - INFO - Processing user input: what is netscout
+2024-08-24 04:09:20 - INFO - AI response: NETSCOUT Systems, Inc. is a global leader in digital business service assurance and cybersecurity. They provide innovative solutions driven by Smart Data technology to help organizations ensure the performance, security, and availability of their digital environments. The company is known for its nGeniusONE platform, which offers comprehensive service assurance by providing deep visibility into network, application, and service performance. Additionally, NETSCOUT is heavily invested in cybersecurity, offering solutions to protect against various cyber threats, including Distributed Denial of Service (DDoS) attacks. The company's commitment to innovation, corporate responsibility, and global reach has established them as a trusted partner for enterprises and service providers worldwide.
+2024-08-27 12:26:46 - INFO - Context already exists. Loading existing context.
+2024-08-27 12:26:54 - INFO - Context already exists. Loading existing context.
+2024-08-27 12:27:06 - INFO - Processing user input: what is netscout
+2024-08-27 12:27:11 - INFO - AI response: NETSCOUT Systems, Inc. is a global leader in digital business service assurance and cybersecurity. They provide innovative solutions driven by Smart Data technology to help organizations ensure the performance, security, and availability of their digital environments. With a strong commitment to innovation, corporate responsibility, and a global presence in over 60 countries, NETSCOUT is a trusted partner for enterprises and service providers worldwide.
