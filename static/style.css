@@ -1,0 +1,32 @@
+/* CSS */
+.chat-row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.chat-icon {
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.chat-bubble {
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.ai-bubble {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.human-bubble {
+    background-color: #007bff;
+    color: white;
+}
