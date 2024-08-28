@@ -24,7 +24,7 @@ Python, Streamlit, PyInstaller.
 
 ### 1. CLONE THE REPOSITORY
 ### 2. INSTALL DEPENDENCIES:
-Run the setup.ps1 Power Shell Script to install all the dependencies
+Run the *setup.ps1* Power Shell Script to install all the dependencies
 ### 3. RUN THE APPLICATION
   ```bash
 python run.py
@@ -32,19 +32,13 @@ python run.py
 
 ## Usage
 
-```python
-import foobar
+### Launching the Chatbot:
+Run the app using python run.py
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
+### Interaction:
+1. Upload documents in supported formats (PDF, DOCX, TXT).
+2. Ask questions related to the uploaded documents directly via the chatbot interface.
+   
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
