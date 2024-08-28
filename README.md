@@ -1,17 +1,65 @@
-**AI Chatbot Using PyInstaller and Streamlit**
+# AI CHATBOT USING PYINSTALLER AND STREAMLIT
 
-Welcome to the AI Chatbot project! This repository contains the source code, configuration, and documentation for a robust AI-powered chatbot built using Streamlit and packaged as a standalone executable using PyInstaller. The chatbot is designed to interact with users, answering questions based on the provided context or documents.
+## Project Overview 
 
-*Features:*
+#### Purpose: 
+A document-based AI chatbot designed to answer user queries, built with Streamlit and packaged as a standalone executable.
 
-1. Interactive UI: Built with Streamlit, the chatbot offers a user-friendly web interface for seamless interactions.
+#### Tech Stack: 
+Python, Streamlit, PyInstaller.
 
-2. Document-Based Q&A: Users can upload documents (PDF, DOCX, TXT), and the chatbot responds based on the content of the uploaded file.
+## Table of Contents
 
-3. Standalone Application: The entire chatbot can be packaged into a single executable file using PyInstaller, making it easy to deploy without requiring a Python environment.
+1. Installation
+2. Usage
+3. Creating Executable
+4. Features
+5. File Structure
+6. Configuration
+7. Contributing
+8. License
+9. Contact
+   
+## Installation
 
-4. Customizable: Easily modify the chatbot's logic, UI, and backend by editing the provided source files.
+1. CLONE THE REPOSITORY :
+   
+   ```bash
+git clone https://github.com/yourusername/ai-chatbot-pyinstaller-streamlit.git
+cd ai-chatbot-pyinstaller-streamlit
+```
+2. INSTALL DEPENDENCIES:
 
-*What's this?*
+Run the setup.ps1 Power Shell Script to install all the dependencies
 
-This repository contains an AI-powered chatbot developed using Streamlit and packaged as a standalone executable with PyInstaller. The chatbot is capable of answering user questions based on uploaded documents and provides an interactive web interface for seamless user experience.
+3. RUN THE APPLICATION
+
+  ```bash
+python run.py
+```
+
+## Usage
+
+```python
+import foobar
+
+# returns 'words'
+foobar.pluralize('word')
+
+# returns 'geese'
+foobar.pluralize('goose')
+
+# returns 'phenomenon'
+foobar.singularize('phenomena')
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
