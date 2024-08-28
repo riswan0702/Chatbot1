@@ -17,7 +17,10 @@ Python, Streamlit, PyInstaller.
 #### 5. Files
 #### 6. License
 #### 7. Contact
-   
+
+### NB: 
+Change or alter the directory location/file path accordingly.
+
 ## INSTALLATION
 
 #### 1. Clone the Repository
